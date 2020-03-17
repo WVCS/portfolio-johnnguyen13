@@ -1,62 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
 <style>
-body {
-  background-color: yellow;
+  div {
+  background-image: url('https://i.pinimg.com/originals/00/d3/5c/00d35c376fa5677a495cd1c0163a3ba6.gif');
 }
-.container{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.one {
-  background-color: green;
-  height: 100px;
-  width: 100px;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.two {
-  background-color: blue;
-  height: 200px;
-  width: 100px;
-  text-align: center;
-  font-size: 50px;
-}
-
-.three {
-  background-color: red;
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  <img src="https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg" class="three" alt="Travis Scott">
-}
-
-@media only screen and (max-width: 768px) 
-{.container {
-  flex-direction: column;}
-  body{
-    background-color: black;
-  }
+li a:hover {
+  background-color: #111;
 }
 </style>
+</head>
 <body>
-  <div class="container">
-    <div class="one"> one</div>
-    <div class="two"> two</div>
-    <div class="three">three</div>
-     <img src="https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg" class="three" alt="Travis Scott">
-  </div>
-  
-  
+
+<ul>
+  <li><a class="active" href="#home">About</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+
 </body>
 </html>
+
