@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <style>
-  div {
-  background-image: url('https://i.pinimg.com/originals/00/d3/5c/00d35c376fa5677a495cd1c0163a3ba6.gif');
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  margin: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #000000;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.header {
+  padding: 3px;
+  text-align: center;
+  background: #D4Af37;
+  color: white;
+  font-size: 30px;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #232;
 }
 
 li {
@@ -28,15 +53,96 @@ li a {
 li a:hover {
   background-color: #111;
 }
+  .parallax {
+  background-image: url("https://i.pinimg.com/originals/00/d3/5c/00d35c376fa5677a495cd1c0163a3ba6.gif");
+  min-height: 500px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+ul.t {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.t {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.t{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+div {
+ color:white;
+}
 </style>
-</head>
 <body>
 
-<ul>
-  <li><a class="active" href="#home">About</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <img src="2011-nba-finals-2016-nba-finals-2017-nba-finals-logo-nba.png" style="float:right;width:200px;height:200px;">
+  
+  <div class="header">
+  <h1>The NBA Finals</h1>
+  <p>Where amazing Happens.</p>
+</div>
 
+  <ul>
+  <div id="navbar">
+  <li><a href="https://www.nba.com/playoffs/">Who</a></li>
+  <li><a href="https://www.powayusd.com/en-US/Schools/HS/WVHS/HOME">Location</a></li>
+</ul>
+ 
+  <div class="parallax"></div>
+
+<div style="height:auto;background-color:white; position: relative">
+
+</ul>
+</div>
+<div class="grid-container">
+  <div class="grid-item">2011 Finals: Dallas Mavericks</div>
+  <div class="grid-item">2012 Finals: Miami Heat</div>
+  <div class="grid-item">2013 Finals: Miami Heat</div>  
+  <div class="grid-item">2014 Finals: San Antonio Spurs</div>
+  <div class="grid-item">2015 Finals: Golden State Warriors</div>
+  <div class="grid-item">2016 Finals: Cleveland Cavaliers</div>  
+  <div class="grid-item">2017 Finals: Golden State Warriors</div>
+  <div class="grid-item">2018 Finals: Golden State Warriors</div>
+  <div class="grid-item">2019 Finals: Toronto Raptors</div>  
+</div>
+  <div class="row">
+  <div class="column" style="background-color:black;"">
+    <h2><font color="white">Contact</font></p></h2>
+    <p><font color="white">https://www.nba.com/playoffs/#/ </font></p>
+       </p>
+                          </div>
+  <div class="column" style="background-color:gold;">
+    <h2><font color="black">What is the NBA Finals? </font></h2>
+      <p>   <font color="black"> The NBA Finals is the annual championship series of the National Basketball Association. The Eastern and Western conference champions play a best-of-seven game series to determine the league champion. </font></p>  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.3905765827612!2d-117.15069619830494!3d32.967095782228746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf82042e0ec05%3A0x33d470abd0dd807c!2sWestview%20High%20School!5e0!3m2!1sen!2sus!4v1584488434285!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  
+
+  </div>
+</div>
+
+</u2>
 </body>
 </html>
 
